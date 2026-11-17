@@ -1,0 +1,75 @@
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur
+AddReg    = Scheme.Reg
+
+[SourceDisksNames]
+1 = "Black Glove",,0,"cursors"
+
+[SourceDisksFiles]
+01_Normal.cur = 1
+02_Help.ani = 1
+03_Working_in_Background.ani = 1
+04_Busy.ani = 1
+05_Precision.ani = 1
+06_Text.ani = 1
+07_Handwriting.ani = 1
+08_Unavailable.ani = 1
+09_Vertical.ani = 1
+10_Horizontal.ani = 1
+11_Diagonal_1.ani = 1
+12_Diagonal_2.ani = 1
+13_Move.ani = 1
+14_Alternate_Select.cur = 1
+15_Link.cur = 1
+16_Location.ani = 1
+17_Person.ani = 1
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%unavailiable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%,%10%\%CUR_DIR%\%pin%,%10%\%CUR_DIR%\%person%"
+
+[Scheme.Cur]
+"01_Normal.cur"
+"02_Help.ani"
+"03_Working_in_Background.ani"
+"04_Busy.ani"
+"05_Precision.ani"
+"06_Text.ani"
+"07_Handwriting.ani"
+"08_Unavailable.ani"
+"09_Vertical.ani"
+"10_Horizontal.ani"
+"11_Diagonal_1.ani"
+"12_Diagonal_2.ani"
+"13_Move.ani"
+"14_Alternate_Select.cur"
+"15_Link.cur"
+"16_Location.ani"
+"17_Person.ani"
+
+[Strings]
+CUR_DIR       = "Cursors\BlackGlove"
+SCHEME_NAME   = "Black Glove"
+CREATOR       = "Created by Bidas"
+pointer       = "01_Normal.cur"
+help          = "02_Help.ani"
+work          = "03_Working_in_Background.ani"
+busy          = "04_Busy.ani"
+cross         = "05_Precision.ani"
+text          = "06_Text.ani"
+hand          = "07_Handwriting.ani"
+unavailiable  = "08_Unavailable.ani"
+vert          = "09_Vertical.ani"
+horz          = "10_Horizontal.ani"
+dgn1          = "11_Diagonal_1.ani"
+dgn2          = "12_Diagonal_2.ani"
+move          = "13_Move.ani"
+alternate     = "14_Alternate_Select.cur"
+link          = "15_Link.cur"
+pin           = "16_Location.ani"
+person        = "17_Person.ani"
